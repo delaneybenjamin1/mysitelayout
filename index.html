@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+</head>
+<style>
+    h1{
+        text-align: center;
+        padding-top: 50px;
+    }
+    span{
+        float:right;
+        padding:30px;
+        margin-right: 50px;
+        position: relative;
+    }
+    .sidebar{
+        padding-top: 110px;
+        padding-left: 5px;
+        float: left;
+        width: 20%;
+        border-right-style: solid;
+        color: black;
+        height: 76.5%;
+        left:0;
+        bottom:0;
+        position: fixed;
+        overflow: hidden;
+    }
+
+    .main{
+        padding-top: 100px;
+        float: right;
+        width: 80%;
+    }
+
+    nav{
+        position: fixed;
+        top: 0;
+        left:0;
+        right:0;
+        float:right;
+        padding: 20px;
+        background-color: grey;
+        width: 100%;
+        max-height: 70px;
+    }
+    body{
+        padding-top: 100px;
+        float: right;
+        width: 80%;
+    }
+    footer{
+        text-decoration: none;
+        background-color: dimgray;
+        font-size: 0.90em;
+        text-align: center;
+        color: #fff;
+        padding: 10px;
+        position:fixed;
+        bottom: 0;
+        left:0;
+        right:0;
+        height: 30px;
+    }
+    a:hover{
+        text-decoration: none;
+        color: aquamarine;
+    }
+    a:link{
+        text-decoration: none;
+        color: #ffffff;
+    }
+    a:visited{
+        text-decoration: none;
+        color: #ffffff;
+    }
+</style>
+<nav>
+    <img src="../mysitelayout/UniversityLogo.png" alt="Logo of The University of Arizona.">
+    <span>
+     <a href="./index.html">Home Page</a>
+    <a href="./hometown.html">Hometown</a>
+    <a href="./gallery.html">Gallery</a>
+   <a href="./poem.html">Poem</a>
+</span>
+</nav>
+<div class="sidebar">
+    my sidebar
+</div>
+<div class="main">
+    <table>
+        <Caption><center>Red Rocks, Colorado</center></Caption>
+        <tr>
+            <th>Photo</th>
+            <th>Date</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td><img src="../mysitelayout/vacation1.jpg" alt="V1"></td>
+            <td>Jan 15, 2018</td>
+            <td>View from the top row, sitting area holds 9,525 people</td>
+        </tr>
+        <tr>
+            <td><img src="../mysitelayout/vacation2.jpg"  alt="V2"></td>
+            <td>Feb 20, 2017</td>
+            <td>Facing south from the top of the amphitheatre</td>
+        </tr>
+        <tr>
+            <td><img src="../mysitelayout/vacation3.jpg" alt="V3"></td>
+            <td>Mar 30, 2019</td>
+            <td>Nearby red rocks site 6,450 feet (1970 m) above sea level</td>
+        </tr>
+        <tr>
+            <td colspan="3">Copyright &copy 2019 Zippy Photographers</td>
+        </tr>
+    </table>
+</div>
+<footer>
+    <a href="https://twitter.com/">Twitter</a>
+    <a href="https://www.facebook.com/">Facebook</a>
+    <a href="https://www.linkedin.com/">LinkedIn</a>
+</footer>
+</html>
